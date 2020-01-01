@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="46.1709">
+    <testcase classname="Search and place order for Vegetables" name="Search for items and validate results" time="15.980886">
+        <system-out>
+            <![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Cucumber Vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page" time="15.66141">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Brinjal Vegetable....................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed in Check out page..........undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page 2" time="14.528604">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Beetroot Vegetable...................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in Check out page.........undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+cucumberOptions\TestRunner.class
+stepDefinations\MyStepDefinations.class
+stepDefinations\Hooks.class
+Automation\CucumberAutomation\AppTest.class
